@@ -232,6 +232,52 @@ export default {
             "No punctuation and case": 0.00275,
           },
         },
+        Russian: {
+          NNSplit: {
+            Clean: 0.81678,
+            "Partial punctuation": 0.580357,
+            "Partial case": 0.814239,
+            "Partial punctuation and case": 0.497773,
+            "No punctuation and case": 0.207012,
+          },
+          "Spacy (Tagger)": {
+            Clean: 0.903279,
+            "Partial punctuation": 0.335027,
+            "Partial case": 0.803927,
+            "Partial punctuation and case": 0.316974,
+            "No punctuation and case": 0.186239,
+          },
+          "Spacy (Sentencizer)": {
+            Clean: 0.858714,
+            "Partial punctuation": 0.260454,
+            "Partial case": 0.858894,
+            "Partial punctuation and case": 0.260842,
+            "No punctuation and case": 0.005081,
+          },
+        },
+        Ukrainian: {
+          NNSplit: {
+            Clean: 0.693308,
+            "Partial punctuation": 0.441074,
+            "Partial case": 0.691783,
+            "Partial punctuation and case": 0.391338,
+            "No punctuation and case": 0.12138,
+          },
+          "Spacy (Tagger)": {
+            Clean: NaN,
+            "Partial punctuation": NaN,
+            "Partial case": NaN,
+            "Partial punctuation and case": NaN,
+            "No punctuation and case": NaN,
+          },
+          "Spacy (Sentencizer)": {
+            Clean: 0.825657,
+            "Partial punctuation": 0.25615,
+            "Partial case": 0.826225,
+            "Partial punctuation and case": 0.256329,
+            "No punctuation and case": 0.00807,
+          },
+        },
       },
     };
   },
